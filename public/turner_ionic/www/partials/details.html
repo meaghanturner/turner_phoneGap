@@ -1,0 +1,15 @@
+<ion-header-bar classic="bar-dark">
+	<h1 class="title">More about {{character.fname}} {{character.lname}}</h1>
+</ion-header-bar>
+
+<ion-content id="mainPost" class="padding">
+<img data-ng-src="img/{{ character.image }}.jpg" alt="character image">
+<div class="info">
+<h2>About {{character.fname}} {{character.lname}}</h2>
+<p>{{character.description}}</p> 
+</div>
+</ion-content>
+
+<ion-footer-bar class="bar-stable">
+	<button class="button button-dark icon-left ion-home" ng-click="goHome()">Home</button>
+</ion-footer-bar>

@@ -1,0 +1,60 @@
+/* Empty. Add your own CSS if you like */
+body
+{
+	font-size: 100%;
+	font-family: sans-serif, Arial, Helvetica;
+	text-align: center;
+}
+
+.bar .title
+{
+	font-weight: bold;
+	font-size: 2em;
+	font-family: 'Wendy One', sans-serif;
+	color: orange;
+	background-color: black;
+}
+
+.info, h2{
+
+	color: orange;
+}
+
+h2{
+	font-family: 'Wendy One', sans-serif;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+	background-color: black;
+	padding: 3px 8px;
+	color: white;
+}
+
+a:hover
+{
+	background-color: orange;
+}
+
+img
+{
+	width: 50%;
+
+}
+
+p
+{
+	padding-left: 30px;
+	padding-right: 30px;
+	color: grey;
+}
+
+.warn
+{
+	font-style: italic;
+	padding-top: 10px;
+	background-color: #ddd;
+	color: black;
+}

@@ -1,0 +1,20 @@
+<ion-header-bar classic="bar-light">
+	<h1 class="title">Arrested Development</h1>
+</ion-header-bar>
+
+<ion-content>
+
+	<ion-list id="mainList">
+	<p class="warn"> Great News! New Season 5 coming soon, 2017! </p>
+	<h2>Character Directory:</h2>
+		<ion-item ng-repeat="characters in character" class="item item-thumbnail-center"> 
+	<img data-ng-src="img/{{ characters.image}}.jpg" alt="{{characters.fname}}">
+
+
+
+			<h3>{{characters.fname}} {{characters.lname}}</h3>
+			<a href="#details/{{ $index }}">Read More</a>
+		</ion-item>
+
+	</ion-list>
+</ion-content>
